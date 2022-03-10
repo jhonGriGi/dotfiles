@@ -5,9 +5,9 @@ endif
 call plug#begin()
 
 " Highlights
-Plug 'Yggdroot/indentLine'
-Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'norcalli/nvim-colorizer.lua'
 
 " Status bar
 Plug 'maximbaz/lightline-ale'
@@ -17,9 +17,11 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 
-" File manager
+" Tree
 Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" File manager
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -53,12 +55,12 @@ Plug 'junegunn/gv.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'kabbAmine/vCoolor.vim'
 Plug 'vim-python/python-syntax'
-Plug 'dense-analysis/ale'
 Plug 'easymotion/vim-easymotion'
 Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'valloric/MatchTagAlways'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'Yggdroot/indentLine'
 Plug 'scrooloose/syntastic'
 
 call plug#end()
