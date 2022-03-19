@@ -6,6 +6,11 @@
   "javascript.suggest.autoImports": true,
   "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",

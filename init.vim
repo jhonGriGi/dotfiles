@@ -12,4 +12,5 @@ so ~/nvim/plugins/coc.vim
 so ~/nvim/plugins/easy-motion.vim
 so ~/nvim/plugins/emmet.vim
 so ~/nvim/plugins/signify.vim
-so ~/nvim/plugins/syntatic.vim
+" so ~/nvim/plugins/syntatic.vim
+so ~/nvim/plugins/styled-components.vim
